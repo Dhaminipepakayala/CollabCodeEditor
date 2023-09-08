@@ -1,0 +1,55 @@
+
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.usersEach {
+    display: grid;
+    justify-items: center;
+}
+
+.avatar {
+    color: white;
+    border-radius: 5px;
+    min-width: 30px;
+    min-height: 30px;
+    padding: 5px;
+    font-size: small;
+
+    display: grid;
+    place-items: center;
+}
+
+.uname {
+    font-weight: bold;
+    font-size: small;
+}
+
+.btn1,.btn2{
+    width:200px;
+    font-weight: bold;
+    padding: 8px 15px;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+.btn1{
+    background-color: #14a476;
+    color: white;
+
+}
+.btn1:hover{
+    color:#3eaa03;
+    background-color: white;
+}
+.btn2{
+    color:#d92f0d;
+    background-color: white;
+}
+.btn2:hover {
+    background-color: #d92f0d;
+    color: white;
+}
